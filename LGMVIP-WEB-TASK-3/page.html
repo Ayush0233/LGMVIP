@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="form">
+
+            <form action="">
+                <h1>Registration Form</h1>
+                <div class="form">
+                    <label class="credent"><input type="text" name="Enter your name" id="name" class="inp"
+                            placeholder="Enter your full name"></label><br>
+                    <label class="credent"><input type="number" name="Enter your name" id="number" class="inp"
+                            placeholder="Enter Mobile Number"></label><br>
+
+                    <label class="credent"> <input type="email" name="Enter your name" id="email" class="inp"
+                            placeholder="Enter email"></label><br><br>
+                    <label class="credent">
+                        <label for="gender" class="head">Gender :</label> <br>
+                        <input type="radio" class="item" name="gender" id="male" value="male"> Male <br>
+                        <input type="radio" class="item" name="gender" id="female" value="female"> Female <br>
+                        <input type="radio" class="item" name="gender" id="other" value="other"> Other <br>
+                    </label> <br>
+                    <label class="credent">
+                        <label for="domain" class="head">Preferred Domain :</label> <br>
+                        <input type="radio" class="item" name="domain" id="wd"> Web Development <br>
+                        <input type="radio" class="item" name="domain" id="ad"> Android Development <br>
+                        <input type="radio" class="item" name="domain" id="jd"> Java Development <br>
+                        <input type="radio" class="item" name="domain" id="ds"> Data Science <br>
+                        <input type="radio" class="item" name="domain" id="ai"> Artificial Intelligence
+                    </label> <br><br>
+                    <label> <input type="button" value="Submit" class="btn" id="btn" onclick="addInfo()"></label>
+                    <label> <input type="reset" class="btn"></label>
+
+                </div>
+            </form>
+        </div>
+        <div id="result">
+
+            <div id="info">
+                <h1>User's Information</h1>
+                <div id="join">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="page.js"></script>
+</body>
+</html>
